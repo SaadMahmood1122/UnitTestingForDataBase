@@ -1,0 +1,6 @@
+rootProject.name = 'review-service'
+
+include ':api'
+project(':api').projectDir = file('../api')
+include ':util'
+project(':util').projectDir = file('../util')
